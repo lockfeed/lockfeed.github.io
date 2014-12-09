@@ -1,12 +1,12 @@
 @import "h5bp.scss";
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('proximanova-semibold-webfont.eot');
-    src: url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('proximanova-semibold-webfont.woff2') format('woff2'),
-         url('proximanova-semibold-webfont.woff') format('woff'),
-         url('proximanova-semibold-webfont.ttf') format('truetype'),
-         url('proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    src: url('/fonts/proximanova-semibold-webfont.eot');
+    src: url('/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('/fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('/fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('/fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
