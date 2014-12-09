@@ -63,7 +63,9 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.08em;
 }
 p {
-    font: 22px/1.7 $fontBody;
+    font: 16px/1.7 $fontBody;
+    color:#666;
+    margin-bottom: 40px;
 }
 .container {
     width: 90%;
@@ -101,11 +103,20 @@ footer {
         }
     }
 }
+.hero{
+
+    font: 24px/1.5 $fontBody;
+    text-transform: none;
+    letter-spacing: 0;
+}
 @media(min-width:700px) {
     footer {
+        height:50px;
+
     	position: absolute;
     	bottom: 0;
         ul li{
+            line-height: 49px;
         	display: inline;
         	margin-right:10px;
         }
@@ -113,6 +124,10 @@ footer {
         	margin-right: 0;
         }
         
+    }
+    .hero, p{
+        text-align: center;
+        margin-top:20px;
     }
 }
 header {
@@ -126,3 +141,4 @@ header {
         display: block;
     }
 }
+
