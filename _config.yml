@@ -4,7 +4,8 @@
 # 3. config.yml
 
 name: lockfeed.github.io
-description: 
+description: "Lockfeed is an app that transforms your lock screen into a personalized news magazine."
+url: http://lockfeed.co
 author:
   name: Jared Palmer
   email: jared@palmer.net
