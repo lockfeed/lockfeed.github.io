@@ -1,6 +1,17 @@
 @import "h5bp.scss";
-$fontBody: "Merriweather";
-$fontHeadings: "Proxima Nova";
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-semibold-webfont.eot');
+    src: url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-semibold-webfont.woff2') format('woff2'),
+         url('proximanova-semibold-webfont.woff') format('woff'),
+         url('proximanova-semibold-webfont.ttf') format('truetype'),
+         url('proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+$fontBody: "Merriweather","Georgia", Cambria, serif;
+$fontHeadings: "Proxima Nova", "Montserrat", "Helvetica Neue", "Helvetica",Arial, sans-serif;
 $red: #E12828;
 $black: #222422;
 html, body {
