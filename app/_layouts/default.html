@@ -8,12 +8,17 @@
     <meta name="msvalidate.01" content="8B1B49BDE2C31CE35B3C83A32A03023E" />
     <meta name="google-site-verification" content="sNO28twbR83Hc--Yf5BwO6wrODJQAZonV3bQiN7hwh8" />
     <meta name="description" content="{{ site.description }}">
+    
+    <meta name="copyright" content="Copyright 2015 LockFeed, Inc. All rights reserved." />
+
     <meta property="og:type" content="website">
     <meta property="og:image" content="htttp://lockfeed.co/img/twittercard.jpg" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:description" content="{{ site.description }}" />
-
+    
+    <meta name="author" content="LockFeed">
+    
     <meta name="twitter:card" content="app">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ site.description }}">
@@ -33,6 +38,8 @@
     <meta name="apple-mobile-web-app-title" content="LockFeed">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
     <link rel="icon" href="favicon.ico">
+
+    <link rel="canonical" href="https://lockfeed.co/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
@@ -47,7 +54,27 @@
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
+    <!-- Facebook Conversion Code for Page View -->
+    <script>
+    (function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', '6020424983250', {
+        'value': '0.00',
+        'currency': 'USD'
+    }]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020424983250&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" />
+    </noscript>
 </head>
 
 <body>
